@@ -1,5 +1,4 @@
 -- Modify the data table table `herxi_user`
 ALTER TABLE `herxi_user`
- DROP COLUMN `password`,
- ADD COLUMN `passwords` varchar(255) DEFAULT NULL AFTER `username`;
+ ADD COLUMN `reg_time` datetime DEFAULT NULL AFTER `gender`;
 -- Dumping data for table `herxi_user`
